@@ -17,7 +17,7 @@ module.exports = {
          }
       }
    },
-   publicPath: '/slider/'
+   publicPath: '/tzcarousel/'
 }
 
 
