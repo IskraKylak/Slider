@@ -14,7 +14,7 @@ export default {
             commit('SET_SLIDER', payload)
         },
         GET_SLIDER_FROM_API({commit}) {
-            return fetch("https://picsum.photos/v2/list")
+            return fetch("https://picsum.photos/v2/list?limit=10")
             .then((response) => response.json())
             .then((data) => {
                 const newData = data.map(item => {
